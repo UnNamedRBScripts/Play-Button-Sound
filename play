@@ -1,0 +1,15 @@
+-- Create a new Sound instance
+local sound = Instance.new("Sound")
+
+-- Set the SoundId property to the desired sound ID
+sound.SoundId = "rbxassetid://7545317681"
+
+-- Set the volume and other properties if needed
+sound.Volume = 1
+sound.Looped = false
+
+-- Parent the sound to the Workspace so it can be heard
+sound.Parent = game.Workspace
+
+-- Play the sound
+sound:Play()
